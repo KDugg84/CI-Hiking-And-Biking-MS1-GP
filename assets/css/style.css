@@ -24,7 +24,7 @@ body {
     font-family: Oswald, 'san-serif';
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: green;
+    color: forestgreen;
 }
 
 /* Navbar styles for all pages */
@@ -37,11 +37,43 @@ body {
     border-bottom: 1px solid #777777;
 }
 
+/* Hero Image styles for all pages */
+
+#hero-image-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://aviturga.es/wp-content/uploads/2022/09/mirador-de-vilouxe.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Animation styles for the hero image for all pages */
+
+@keyframes hero-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+
 /* Footer styles for all pages */ 
 
 footer {
     height: 200px;
-    background-color: green;
+    background-color: lightgreen;
 }
 
 .social-networks {
