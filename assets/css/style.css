@@ -49,6 +49,7 @@ body {
 #hero-image {
     height: 600px;
     width: 100%;
+    position: relative;
     background-image: url('https://aviturga.es/wp-content/uploads/2022/09/mirador-de-vilouxe.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,6 +57,17 @@ body {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+#ribeira-sacra-logo {
+    height: 95px;
+    width: 250px;
+    position: absolute;
+    background-image: url("https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png");
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid;
+    top: 400px;
+    left: 1000px;
 }
 
 /* Animation styles for the hero image for all pages */
@@ -67,7 +79,7 @@ body {
     to {
       transform: scale(1.1);
     }
-  }
+}
 
 /* Footer styles for all pages */ 
 
@@ -90,6 +102,3 @@ footer {
     padding: 5%;
     color: white;
 }
-
-
-
