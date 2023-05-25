@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@600&display=swap');
 
+/* Default styles for all pages */
+
 html {
     height: 100%;
     width: 100%;
@@ -12,16 +14,20 @@ html {
 }
 
 body {
-    font-family: Lato;
+    font-family: Lato, 'san-serif';
     color: #777777;
 }
 
+/* Logo styles for all pages */
+
 #logo {
-    font-family: Oswald;
+    font-family: Oswald, 'san-serif';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: green;
 }
+
+/* Navbar styles for all pages */
 
 .menu {
     letter-spacing: 4px;
@@ -29,10 +35,29 @@ body {
 
 .active {
     border-bottom: 1px solid #777777;
-  }
+}
 
+/* Footer styles for all pages */ 
 
+footer {
+    height: 200px;
+    background-color: green;
+}
 
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
 
 
 
