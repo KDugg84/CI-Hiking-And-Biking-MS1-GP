@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid #777777;
 }
 
-/* Hero Image styles for all pages */
+/* Hero Image styles*/
 
 #hero-image-container {
     height: 600px;
@@ -65,12 +65,12 @@ body {
     position: absolute;
     background-image: url("https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png");
     background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid;
+    border: 1px solid forestgreen;
     top: 400px;
     left: 1000px;
 }
 
-/* Animation styles for the hero image for all pages */
+/* Animation styles for the hero image*/
 
 @keyframes hero-zoom {
     from {
@@ -79,6 +79,82 @@ body {
     to {
       transform: scale(1.1);
     }
+}
+
+/* Overview styles section*/
+
+#rs-overview-container {
+    height: 600px;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#left-side {
+    width: 33%;
+    padding-top: 30px;
+    float: left;
+}
+
+#right-side {
+    width: 33%;
+    padding-top: 30px;
+    float: right;
+}
+
+#center-page {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-side-header {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-header {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+  }
+  
+  .right-about-heading p {
+    text-align: right;
+}
+
+#image-container {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: forestgreen;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#circle-image {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Footer styles for all pages */ 
