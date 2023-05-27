@@ -62,12 +62,12 @@ body {
 #ribeira-sacra-logo {
     height: 95px;
     width: 250px;
-    position: absolute;
+    top: 400px;
+    left: 1000px;
     background-image: url("https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png");
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid forestgreen;
-    top: 400px;
-    left: 1000px;
+    position: absolute;
 }
 
 /* Animation styles for the hero image*/
@@ -105,7 +105,7 @@ body {
     float: right;
 }
 
-#center-page {
+#page-center {
     width: 33%;
     margin: 0 auto;
 }
@@ -136,25 +136,44 @@ hr {
     text-align: right;
   }
   
-  .right-about-heading p {
+.right-about-heading p {
     text-align: right;
 }
 
-#image-container {
-    height: 400px;
+#images-container {
+    height: 600px;
     width: 400px;
-    padding: 30px;
+    padding: 10px;
     border-style: solid;
     border-color: forestgreen;
     border-width: 1px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
-#circle-image {
+#top-image {
+    height: 50%;
+    width: 100%;
+    background-color: red;
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#bottom-image {
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Quotes from public section styles*/
+
+#feedback {
+    margin-top: 100px;
 }
 
 /* Footer styles for all pages */ 
