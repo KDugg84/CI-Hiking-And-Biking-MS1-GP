@@ -153,8 +153,6 @@ hr {
 #top-image {
     height: 50%;
     width: 100%;
-    background-color: red;
-    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -163,8 +161,6 @@ hr {
 #bottom-image {
     height: 50%;
     width: 100%;
-    background-color: blue;
-    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
