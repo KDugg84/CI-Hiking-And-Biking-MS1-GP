@@ -63,7 +63,7 @@ body {
     height: 95px;
     width: 250px;
     top: 400px;
-    left: 1000px;
+    left: 80px;
     background-image: url("https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png");
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid forestgreen;
@@ -171,18 +171,17 @@ hr {
 #quotes-container {
     height: 450px;
     width: 33%;
+    margin: 0 auto;
     padding: 30px;
-    display: inline-block;
     margin-top: 100px;
     margin-bottom: 50px;
 }
 
 .quotes {
-    float: right;
+    align-items: center;
     line-height: 20px;
     clear: both;
 }
-
 
 /* Footer styles for all pages */ 
 
@@ -205,3 +204,88 @@ footer {
     padding: 5%;
     color: white;
 }
+
+/* Media queries for index page */
+
+@media screen and (max-width: 1024px) {
+    /*Re-using the rs-overview-container div id*/
+    #rs-overview-container {
+        /*First step to creating a more narrower, vertical design for tablet viewing*/
+        width: 65%;
+
+        /*To accommodate the vertical layout and maintain the site structural ratios*/
+        height: 1200px;
+
+        /*To center our content*/
+        margin: 0 auto;
+    }
+
+    /*Focus on the contents of the rs-overview section*/
+    #welcome {
+        /*Change the padding to keep the balance between the welcome message and the main image above*/
+        padding: 30px 0;
+
+        /*Set the margin to 0 to additionally clean up the vertical gap*/
+        margin-top: 0;
+    }
+
+    /*Focus on the left-side and right-side divs*/
+    #left-side, #right-side {
+        /*Set the width of each to 100% of the parent container and float the content to the left*/
+        width: 100%;
+        float: left;
+
+        /*Override any default desktop-level padding by setting it to 0*/
+        padding: 0;
+    }
+
+    /*We push the page-center images below all text content*/
+    #page-center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }    
+
+    /*We push the quotes-container below the center-page images*/
+    #quotes-container {
+        clear: both;
+        width: 100%;
+        padding: 0 auto;
+    }
+
+    /*We hide the horizontal rule under each of the content headers in the rs-overview-container at the tablet breakpoint*/
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    #rs-overview-container {
+        /*We set the width to 90% for mobile devices*/
+        width: 90%;
+        height: 1200px;
+
+        /*Allows for 5% spacing on the left and right margins of the screen*/
+        margin: 0 auto;
+    }
+
+    .left-side-header, .right-side-header {
+        /*The width of these headings will be inherited from the parent section*/
+        width: inherit;
+    }
+
+    .left-side-header h2, .right-side-header h2 {
+        /*We will center-align both the main text and the headings*/
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-side-header p, .right-side-header p {
+        /*We will use text-align to center the paragraph content*/
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+}
+
+/* Media queries for index page ends*/
