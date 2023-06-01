@@ -199,7 +199,74 @@ hr {
     font-size: 280%;
 }
 
-#mino-header {
+/*Information and disclaimer*/
+
+#info-container {
+    height: 500px;
+}
+
+#info-left-side {
+    width: 33%;
+    padding-top: 30px;
+    float: left;
+}
+
+.info-left-side-header {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#info-right-side {
+    width: 33%;
+    padding-top: 30px;
+    float: right;
+}
+
+.info-right-side-header {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.info-left-side-header h2 { 
+    text-align: center;
+}
+
+.info-right-side-header h2 {
+    text-align: center
+}
+    
+#info-center {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#info-image-container {
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid forestgreen;
+    border-radius: 50%;
+}
+
+#info-image {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/*Hiking section headers*/
+
+.hiking-headers {
     margin: 20px 0;
     text-align: center;
 }
@@ -221,13 +288,25 @@ hr {
     padding: 10px 10px;
     text-align: left;
     border: 1px solid forestgreen;
+    border-radius: 5%;
 }
 
-.image-container {
+/*Image containers*/
+
+#image-container1 {
     background-image: url("../img/activities/mino-route.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 50%;
+}
+
+#image-container2 {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
 }
 
 h3 {
@@ -339,4 +418,62 @@ footer {
     }
 }
 
-/* Media queries for index page ends*/
+/* Media queries for activities page info section only*/
+
+@media screen and (max-width: 1024px) {
+    #info-container {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #info-left-side, #info-right-side {
+        /*We set the width of each to 100% of the parent section and float the content to the left*/
+        width: 100%;
+        float: left;
+
+        /*We override any default desktop-level padding by setting it to 0*/
+        padding: 0;
+    } 
+
+    /*We then push the info-center image below all text content*/
+    #info-center {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    /*Hide the horizontal rule under the content headers at tablet breakpoint*/
+    hr {
+        display: none;
+      }
+        
+}
+
+@media screen and (max-width: 943px) {
+    #info-container {
+        /*Set the width to 90% for mobile devices*/
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .info-left-side-header, .info-right-side-header {
+        /*Heading widths inherited from parent section*/
+        width: inherit;
+    }
+
+    .info-left-side-header h2, .info-right-side-header h2 {
+        /*Center-align both the main text and the headings*/
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-left-side-header p, .info-right-side-header p {
+        /*Center-align our paragraph content*/
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+    
+}
