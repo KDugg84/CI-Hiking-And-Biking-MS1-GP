@@ -148,6 +148,7 @@ hr {
     border-color: forestgreen;
     border-width: 1px;
     margin: 0 auto; 
+    border-radius: 10px;
 }
 
 #top-image {
@@ -257,7 +258,7 @@ hr {
 }
 
 #info-image {
-    background-image: url();
+    background-image: url("../img/activities/miradoiro-de-matacas.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,6 +292,10 @@ hr {
     border-radius: 5%;
 }
 
+h3 {
+    text-align: center;
+}
+
 /*Image containers*/
 
 #image-container1 {
@@ -302,15 +307,27 @@ hr {
 }
 
 #image-container2 {
-    background-image: url();
+    background-image: url("../img/activities/ruta-dos-bosques-maxicos.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
 }
 
-h3 {
-    text-align: center;
+#image-container3 {
+    background-image: url("../img/activities/belesar-vineyard-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container4 {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
 }
 
 /* Footer styles for all pages */ 
@@ -340,17 +357,17 @@ footer {
 @media screen and (max-width: 1024px) {
     /*Re-using the rs-overview-container div id*/
     #rs-overview-container {
-        /*First step to creating a more narrower, vertical design for tablet viewing*/
+        /*Create a more narrower, vertical design for tablet viewing*/
         width: 65%;
 
-        /*To accommodate the vertical layout and maintain the site structural ratios*/
+        /*To accommodate the vertical layout*/
         height: 1200px;
 
         /*To center our content*/
         margin: 0 auto;
     }
 
-    /*Focus on the contents of the rs-overview section*/
+    /*The contents of the rs-overview section*/
     #welcome {
         /*Change the padding to keep the balance between the welcome message and the main image above*/
         padding: 30px 0;
@@ -359,7 +376,6 @@ footer {
         margin-top: 0;
     }
 
-    /*Focus on the left-side and right-side divs*/
     #left-side, #right-side {
         /*Set the width of each to 100% of the parent container and float the content to the left*/
         width: 100%;
@@ -369,7 +385,7 @@ footer {
         padding: 0;
     }
 
-    /*We push the page-center images below all text content*/
+    /*Push the page-center images below all text content*/
     #page-center {
         clear: both;
         width: 100%;
@@ -377,14 +393,14 @@ footer {
         padding: 0;
     }    
 
-    /*We push the quotes-container below the center-page images*/
+    /*Push the quotes-container below the center-page images*/
     #quotes-container {
         clear: both;
         width: 100%;
         padding: 0 auto;
     }
 
-    /*We hide the horizontal rule under each of the content headers in the rs-overview-container at the tablet breakpoint*/
+    /*Hide the horizontal rule under each of the content headers in the rs-overview-container at the tablet breakpoint*/
     hr {
         display: none;
     }
@@ -421,9 +437,15 @@ footer {
 /* Media queries for activities page info section only*/
 
 @media screen and (max-width: 1024px) {
+    /*Re-using the info-container div id*/
     #info-container {
+        /*Create a more narrower, vertical design for tablet viewing*/
         width: 65%;
+
+        /*To accommodate the vertical layout*/
         height: 1200px;
+
+        /*To center our content*/
         margin: 0 auto;
     }
 
@@ -436,7 +458,7 @@ footer {
         padding: 0;
     } 
 
-    /*We then push the info-center image below all text content*/
+    /*Push the info-center image below all text content*/
     #info-center {
         clear: both;
         width: 100%;
