@@ -323,7 +323,31 @@ h3 {
 }
 
 #image-container4 {
-    background-image: url("");
+    background-image: url("../img/activities/san-pedro-de-rocas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container5 {
+    background-image: url("../img/activities/gabin-birch-wood-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container6 {
+    background-image: url("../img/activities/maquino-largano-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container7 {
+    background-image: url("../img/activities/ruta-fervenza-augacaida.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
