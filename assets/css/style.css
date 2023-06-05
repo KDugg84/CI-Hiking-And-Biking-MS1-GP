@@ -299,7 +299,7 @@ h3 {
 /*Image containers*/
 
 #image-container1 {
-    background-image: url("../img/activities/mino-route.png");
+    background: url("../img/activities/mino-route.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -348,6 +348,78 @@ h3 {
 
 #image-container7 {
     background-image: url("../img/activities/ruta-fervenza-augacaida.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container8 {
+    background-image: url("../img/activities/cibrisqueiros-san-cosmede.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container9 {
+    background-image: url("../img/activities/river-mao-canyon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container10 {
+    background-image: url("../img/activities/loio-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container11 {
+    background-image: url("../img/activities/gold-and-iron-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container12 {
+    background-image: url("../img/activities/ferradal-trail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container13 {
+    background-image: url("../img/activities/cubela-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container14 {
+    background-image: url("../img/activities/ribeira-sacra-vineyards-trail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container15 {
+    background-image: url("../img/activities/ribeira-sacra-mino-route.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container16 {
+    background-image: url("../img/activities/teixeira-route.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -520,6 +592,7 @@ footer {
         /*Center-align our paragraph content*/
         text-align: center;
         padding: 0 20px 0 20px;
+        margin: 0 auto;
     }
     
 }
