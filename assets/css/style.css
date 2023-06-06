@@ -194,7 +194,7 @@ hr {
 
 /*Title*/
 
-#welcome-hiking {
+#welcome-hiking, #welcome-biking {
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
@@ -267,7 +267,7 @@ hr {
 
 /*Hiking section headers*/
 
-.hiking-headers {
+.hiking-headers, .biking-headers {
     margin: 20px 0;
     text-align: center;
 }
@@ -426,6 +426,30 @@ h3 {
     border-radius: 50%;
 }
 
+#image-container17 {
+    background-image: url("../img/activities/sil-canyon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container18 {
+    background-image: url("../img/activities/mino-gorge.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#image-container19 {
+    background-image: url("../img/activities/rs-biking-centre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
 /* Footer styles for all pages */ 
 
 footer {
@@ -539,7 +563,7 @@ footer {
         width: 65%;
 
         /*To accommodate the vertical layout*/
-        height: 1200px;
+        height: 1100px;
 
         /*To center our content*/
         margin: 0 auto;
@@ -573,7 +597,7 @@ footer {
     #info-container {
         /*Set the width to 90% for mobile devices*/
         width: 90%;
-        height: 1200px;
+        height: 1100px;
         margin: 0 auto;
     }
 
