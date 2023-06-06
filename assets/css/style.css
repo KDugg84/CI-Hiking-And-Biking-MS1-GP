@@ -533,7 +533,7 @@ footer {
         height: 1200px;
 
         /*Allows for 5% spacing on the left and right margins of the screen*/
-        margin: 0 auto;
+        margin: auto 0;
     }
 
     .left-side-header, .right-side-header {
@@ -563,7 +563,7 @@ footer {
         width: 65%;
 
         /*To accommodate the vertical layout*/
-        height: 1100px;
+        height: 1200px;
 
         /*To center our content*/
         margin: 0 auto;
@@ -597,8 +597,8 @@ footer {
     #info-container {
         /*Set the width to 90% for mobile devices*/
         width: 90%;
-        height: 1100px;
-        margin: 0 auto;
+        height: 1200px;
+        margin: auto 0;
     }
 
     .info-left-side-header, .info-right-side-header {
