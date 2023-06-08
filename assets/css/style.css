@@ -63,7 +63,7 @@ body {
     height: 95px;
     width: 250px;
     top: 400px;
-    left: 80px;
+    left: 10%;
     background-image: url("https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png");
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid forestgreen;
@@ -653,7 +653,6 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-        margin-left: 20px;
     }
 
     /*Hide the horizontal rule under the content headers at tablet breakpoint*/
