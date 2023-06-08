@@ -142,7 +142,7 @@ hr {
 
 #images-container {
     height: 600px;
-    width: 400px;
+    width: 320px;
     padding: 10px;
     border-style: solid;
     border-color: forestgreen;
@@ -154,6 +154,7 @@ hr {
 #top-image {
     height: 50%;
     width: 100%;
+    background-image: url("../img/index/hikers.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,6 +163,7 @@ hr {
 #bottom-image {
     height: 50%;
     width: 100%;
+    background-image: url("../img/index/biker.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
