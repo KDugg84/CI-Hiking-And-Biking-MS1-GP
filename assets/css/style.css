@@ -244,25 +244,23 @@ hr {
     
 #info-center {
     width: 33%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 #info-image-container {
-    height: 400px;
-    width: 400px;
+    height: 320px;
+    width: 320px;
     padding: 10px;
     margin: 0 auto;
     margin-top: 50px;
     border: 1px solid forestgreen;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 #info-image {
-    background-image: url("../img/activities/miradoiro-de-matacas.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
 }
 
 /*Hiking section headers*/
@@ -653,6 +651,7 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
+        margin-left: 20px;
     }
 
     /*Hide the horizontal rule under the content headers at tablet breakpoint*/
