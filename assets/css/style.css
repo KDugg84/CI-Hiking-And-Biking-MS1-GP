@@ -623,6 +623,24 @@ footer {
     }
 }
 
+@media screen and (max-width: 425px) {
+    /*Center the images on smaller device screens*/
+    #page-center {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    #page-center {
+        margin: 0;
+    }
+
+}
+
 /* Media queries for activities page info section only*/
 
 @media screen and (max-width: 1024px) {
@@ -688,4 +706,20 @@ footer {
         margin: 0 auto;
     }
     
+}
+
+@media screen and (max-width: 425px) {
+    /*Center the image on smaller device screens*/
+    #info-center {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #info-center {
+        margin: 0;
+    }
 }
