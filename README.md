@@ -39,7 +39,6 @@ The best (intuitive) UX creates single-use learning.
     * I want to be able to sign up to a newsletter to stay informed of any major changes/updates made to the site.
 
 <h3>Strategic Trade Offs</h3>
-<br>
 
 | Opportunity/Problem                   | Importance      | Viability/Feasibility |
 |:-------------------------------------:|:---------------:|:---------------------:|
@@ -58,26 +57,23 @@ Reasons for choosing the above opportunities.
 
     * This is of course manadatory and more than feasible given what I have learnt on the course up-to-now.
 
-    <br>
+
 
 * Structured layout
 
     * This is again an important/mandatory area and well within my skill set, the Information Architecture of the site 
       needs to be intuitive meaning that you can easily learn how to use the site from it's layout. 
 
-      <br>
 
 * Location details
     
     * This can be achieved throught the use of text and images relating to the specific regions that are covered within the activities page.
 
-    <br>
 
 * Social media interaction
 
     * Again this is well within my skill set and can be as simple as the use of icons neseted within the site's footer.
 
-    <br>
 
 * Email news-letter 
 
@@ -86,21 +82,18 @@ Reasons for choosing the above opportunities.
 <h2>Design</h2>
 
 <h3>Colour Scheme</h3>
-<br>
 
 Because the site is focused on outdoor activities it felt appropriate to use colours that would help create and enforce the sense of being in the outdoors and with nature.
 
 The two main colours used throughout the site are forestgreen (#228b22) used for the logo and borders for the imagery and lightgreen (#90ee90) for the footer.
 
 <h3>Typography</h3>
-<br>
 
 There are two fonts that were imported in the project used throughout the site, Oswald (weight: 600) used to create the logo and Lato (weight: 300) used as the body text. The backup font used in the font-family is Sans-Serif incase the imported fonts fail to load. 
 
 Because the site would have a white background for the majority of each page it felt necessary to avoid using black for the text instead using a shade of gray (#77777) to create a subtle contrast between the text and the background.
 
 <h3>Imagery</h3>
-<br>
 
 Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also imploys the use of animations designed to make the image "pop" just a bit more.
 
