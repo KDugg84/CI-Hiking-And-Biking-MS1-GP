@@ -20,7 +20,7 @@ The best (intuitive) UX creates single-use learning.
 
     * I want to be able to easily navigate throughout the site to find content that I am interested in.
 
-    * I want to look for user feedback to see if the site is reliable.
+    * I want to look for user feedback to see if the site is reliable and trustworthy.
 
     * I want to be able to locate social media links to see their followings and to determine how trusted and known they are.
 
@@ -49,14 +49,14 @@ The best (intuitive) UX creates single-use learning.
 | Email news-letter                     | 2               | 1                     |
 | Total                                 |19               | Avg 19        
 
-Viability/Feasability formula; take the average viability x the number of items.
+Viability/Feasibility formula; take the average viability x the number of items.
 
 Reasons for choosing the above opportunities.
 
-* Online presence 
+* Online presence
+
 
     * This is of course manadatory and more than feasible given what I have learnt on the course up-to-now.
-
 
 
 * Structured layout
@@ -72,12 +72,12 @@ Reasons for choosing the above opportunities.
 
 * Social media interaction
 
-    * Again this is well within my skill set and can be as simple as the use of icons neseted within the site's footer.
+    * Again this is well within my skill set and can be as simple as the use of icons nested within the site's footer.
 
 
-* Email news-letter 
+* Email news letter 
 
-    * Whilst I have the skills to create a signup/contact form, a database of customer emails would be required to handle this particular feature and that is something at the moment is not within my skills set given the allotted time frame. 
+    * Whilst I have the skills to create a signup/contact form, a database of customer details would be required to handle this particular feature and that is something at the moment is not within my skills set given the allotted time frame. 
 
 <h2>Design</h2>
 
@@ -89,7 +89,7 @@ The two main colours used throughout the site are forestgreen (#228b22) used for
 
 <h3>Typography</h3>
 
-There are two fonts that were imported in the project used throughout the site, Oswald (weight: 600) used to create the logo and Lato (weight: 300) used as the body text. The backup font used in the font-family is Sans-Serif incase the imported fonts fail to load. 
+There are two fonts that were imported into the project used throughout the site, Oswald (weight: 600) was used to create the logo and Lato (weight: 300) was used as the body text. The backup font used in the font-family is Sans-Serif incase the imported fonts fail to load. 
 
 Because the site would have a white background for the majority of each page it felt necessary to avoid using black for the text instead using a shade of gray (#77777) to create a subtle contrast between the text and the background.
 
@@ -99,15 +99,77 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 The hero image came from a Google images search on the Ribeira Sacra [Click the link to view](https://aviturga.es/wp-content/uploads/2022/09/mirador-de-vilouxe.jpeg)
 
-The two centre images used in the home page came from a related Google images search on hiking and cross county biking in Galicia:
+The two center images used in the home page came from a related Google images search on hiking and cross county biking in Galicia:
 
 * [The two hikers](https://www.stuff.co.nz/travel/destinations/europe/105683889/galicia-spain-hiking-the-last-unspoilt-coast-of-europe)
 
 * [The mountain biker](https://www.lavozdegalicia.es/noticia/ourense/manzaneda/2023/04/07/manzaneda-bike-park-estacion-funciona-nueve-pistas/0003_202304O7C4994.htm)
 
-The photos of the two Twitter users commenting on the site came from Code Institute's Whiskey Drop walkthrough exercise [Click to view the page](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) 
+The photos of the two Twitter users commenting on the site came from Code Institute's Whiskey Drop walkthrough exercise [Click the link to view](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4) 
 
-The imagery used throughout the activities page came primarily from the Ribeira Sacra's own guide to hiking and biking
-[Visit the official website](https://turismo.ribeirasacra.org/es/descarga-de-guias-y-mapas)
+The imagery used throughout the activities page came primarily from the Ribeira Sacra's own guide to hiking and long distance mountain biking.
+[Visit the official website](https://turismo.ribeirasacra.org/)
 
-The Hero image was re-used as the background to the contact-us page as its such a striking photo helping to reinforce the beauty of the Ribeira Sacra.
+The Hero image was re-used as the background for the contact-us page as its such a striking photo helping to reinforce the beauty of the Ribeira Sacra.
+
+<h3>Wireframes</h3>
+
+The wireframes were created using Balsamiq desktop for Windows 10
+
+* [Home Page](assets/img/readme/wireframes/Home.png)
+
+* [Activities Page](assets/img/readme/wireframes/Activities.png)
+
+* [Contact Us Page](assets/img/readme/wireframes/Contact.png) 
+
+<h3>Features</h3>
+
+Hiking & Biking consists of three pages (Home, Activities and Contact Us).
+
+* Features that are common across the site include:
+
+    * The logo acts as a link back to the home page regardless of which page the user is currently viewing.
+
+    * A responsive navigation bar across the top of all three pages that adapts to being viewed on different screen sizes, below 768px the navigation anchor/list elements change to a dropdown hamburger icon for a more mobile friendly experience, the same happens when viewed on tablets.
+
+    * Home - navigates to the home page.
+
+    * Activities - navigates to the activities page..
+
+    * Contact Us - navigates to the contact form page.
+
+    * The footer houses the site's social media links represented by Font Awesome icons, when clicked will open (in a new tab) that social media's home page.
+
+* Home Page: 
+
+    * A hero image taken from the Mirador de Vilouxe, a striking image which helps to give the user a sense of how spectacular the landscape of the Ribeira Sacra is.
+
+    * A brief overview of the Ribeira Sacra broken into two sections covering both hiking and mountain biking in the region.  
+
+    * A comments section below the overview with quotes from two users expressing their thoughts on the site via Twitter.  
+
+* Activities Page:
+
+    * An introduction on how to use the hiking guide along with a disclaimer reminding users of the risks involved in both sports. 
+
+    * Each route detailed is accompanied by directions on how to get to each route from a start point, statistics on each route along with an image taken from that particular area. 
+
+    * Each hiking route description also makes reference to whether it is suitable to bike the route as well.
+
+    * A separate section on long distance mountain biking trails which follows the same layout as the hiking section to maintain the look of the page. 
+
+* Contact Us Page:
+
+    * Contains a contact form which can be used to recieve more information, the form includes radio buttons where users can rate their overall user experience along with a comments section where they can elaborate more. As part of form validation the name and email fields have been set to required, this prompts the user to enter details if they have been missed. The form can be submitted using the submit button which POSTS to https://formdump.codeinstitute.net and returns the values entered.
+
+<h3>Future Implementations</h3>
+
+* A database for storing user's information as the basis for a news letter or info pack which can be sent out to subscribers informing them of changes or updates being made to the site. 
+
+<h3>Accessibility</h3>
+
+Whilst coding the site I have ensured that the site is accesible for all. This is achieve by using:
+
+* Google Dev Tools to check contrast of items.
+* Alt tags to describe the images on site.
+* Semantic HTML
