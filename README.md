@@ -173,3 +173,24 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * Google Dev Tools to check contrast of items.
 * Alt tags to describe the images on site.
 * Semantic HTML
+
+<h2>Technologies Used</h2>
+
+<h3>Languages Used</h3>
+
+* HTML5 and CSS3
+* JavaScript - the Hamburger Dropdown menu from Bootstrap 5.3
+
+<h3>Software, Frameworks & Libraries Used</h3>
+
+* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes for the website.
+* [Bootstrap 5.3](https://getbootstrap.com/) was only used to create the navigation bar taking advantage of it's built in responsive classes. The boilerplate was modified slightly to include a few custom CSS styles such as letter spacing and a bottom-border to help remind users of what page they are viewing.
+* [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages along with maps and a warning icon at the top of the activities page. 
+* [Google Fonts](https://fonts.google.com/) was used to import the Oswald font for the logo and Lato for the body text.
+* Google Dev Tools was used to identify and resolve problems related to responsiveness and appearance.
+* [Github](https://github.com/) was used to store my project in a repository.
+* [Git](https://git-scm.com/) was used for version control.
+* [Google](https://google.com) was used to research HTML & CSS.
+* [Gitpod](https://www.gitpod.io/) the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
+* CDNs [Cloudflare](https://www.cloudflare.com/en-gb/learning/what-is-cloudflare/) and [JsDelivr](https://www.jsdelivr.com/) were used for Font Awesome icons CSS minified and Bootstrap 5.3 minified.
+* Free [Online Image Editor](https://www.online-image-editor.com/) was used to crop and resize some of the images used in the project.
