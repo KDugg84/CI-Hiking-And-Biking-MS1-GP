@@ -185,7 +185,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes for the website.
 * [Bootstrap 5.3](https://getbootstrap.com/) was only used to create the navigation bar taking advantage of it's built in responsive classes. The boilerplate was modified slightly to include a few custom CSS styles such as letter spacing and a bottom-border to help remind users of what page they are viewing.
-* [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages along with maps and a warning icon at the top of the activities page. 
+* [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages, the maps and a warning icon at the top of the activities page and the social media icons used in the footer.
 * [Google Fonts](https://fonts.google.com/) was used to import the Oswald font for the logo and Lato for the body text.
 * Google Dev Tools was used to identify and resolve problems related to responsiveness and appearance.
 * [Github](https://github.com/) was used to store my project in a repository.
