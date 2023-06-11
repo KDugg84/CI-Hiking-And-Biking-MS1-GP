@@ -246,7 +246,7 @@ hr {
     
 #info-center {
     width: 33%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 #info-image-container {
@@ -586,7 +586,7 @@ footer {
     #quotes-container {
         clear: both;
         width: 100%;
-        padding: 0 auto;
+        margin: 0 auto;
     }
 
     /*Hide the horizontal rule under each of the content headers in the rs-overview-container at the tablet breakpoint*/
