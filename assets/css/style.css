@@ -172,7 +172,7 @@ hr {
 /* Quotes from public section styles*/
 
 #quotes-container {
-    height: 450px;
+    height: 500px;
     width: 33%;
     margin: 0 auto;
     padding: 30px;
@@ -181,6 +181,7 @@ hr {
 }
 
 .quotes {
+    text-align: center;
     align-items: center;
     line-height: 20px;
     clear: both;
