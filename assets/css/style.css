@@ -723,6 +723,12 @@ footer {
     
 }
 
+@media screen and (max-width: 768px) {
+    #info-center {
+        margin-left: 35px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     /*Center the info image on smaller device screens*/
     #info-center {
