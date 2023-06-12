@@ -692,7 +692,7 @@ footer {
     #info-container {
         /*Set the width to 90% for mobile devices*/
         width: 90%;
-        height: 1200px;
+        height: 1100px;
         margin: auto 0;
     }
 
@@ -724,18 +724,16 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    .flex-container {
-        height: 900px;
-    }
-}
-
-@media screen and (max-width: 425px) {
     /*Center the info image on smaller device screens*/
     #info-center {
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .flex-container {
+        height: 900px;
     }
 }
 
