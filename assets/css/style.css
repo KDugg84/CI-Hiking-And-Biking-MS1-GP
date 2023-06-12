@@ -624,6 +624,13 @@ footer {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #page-center {
+        margin-left: 40px;
+}
+
+}
+
 @media screen and (max-width: 425px) {
     /*Center the images on smaller device screens*/
     #page-center {
