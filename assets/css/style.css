@@ -542,6 +542,10 @@ footer {
     color: white;
 }
 
+.social-networks i:hover {
+    color:#f16c6b;
+}
+
 /* Media queries for index page */
 
 @media screen and (max-width: 1024px) {
