@@ -34,8 +34,6 @@ The best (intuitive) UX creates single-use learning.
 
 * Frequent Visitor Goals: 
 
-    * I want to see if there new areas added to the site like a blog section.
-
     * I want to be able to sign up to a newsletter to stay informed of any major changes/updates made to the site.
 
 <h3>Strategic Trade Offs</h3>
@@ -47,7 +45,7 @@ The best (intuitive) UX creates single-use learning.
 | Offer informative location details    | 4               | 5                     |
 | Social media interaction              | 3               | 3                     |
 | Email news-letter                     | 2               | 1                     |
-| Total                                 |19               | Avg 19        
+| Total                                 |19                | Avg 19        
 
 Viability/Feasibility formula; take the average viability x the number of items.
 
@@ -208,14 +206,64 @@ The W3C Markup Validation Service was used on all three pages as well as the CSS
 * [Contact Us HTML](assets/img/readme/validation/contact-us-page-validation.png)
 * [Stylesheet CSS](assets/img/readme/validation/style-sheet-validation.png)
 
-<h2>Bugs and Errors</h2>
+<h3>Bugs and Errors</h3>
 
 The online validator did throw up a few of error warnings.
 
 * The index page had one warning with regards to the hero image section having no header tag but a div is used to house the hero image container. [Refer back to Index HTML](assets/img/readme/validation/index-page-validation.png)
 
-* The activities page had two errors with regards to unordered list elements nested inside two paragraph elements. An online search concluded that list items cannot be nested inside paragraph elements and this was corrected by separating the text into separate paragraphs with the list itmes separate inside their respective div elements. [Activities page errors](assets/img/readme/validation/activities-page-validation-errors.png)
+* The activities page had two errors with regards to unordered list elements nested inside two paragraph elements. An online search concluded that list items cannot be nested inside paragraph elements and this was corrected by separating the text into separate paragraphs with the list items separate inside their respective div elements. [Activities page errors](assets/img/readme/validation/activities-page-validation-errors.png)
 
 * The stylesheet validator found one error with regards to incorrect values used for a padding style. This was corrected by changing padding to margin. [Stylesheet error](assets/img/readme/validation/stylessheet-validation-error.png)
 
+<h3>Testing User Stories</h3>
 
+* First Time Visitor Goals:
+
+    * I want to easily understand the main purpose of the site and to learn more about what the site has to offer.
+
+      * Upon entering the home page, users are greeted with a simple and easy to read navigation bar which allows them to travel to the page of their choice. (This ties in with point two "I want to be able to easily navigate throughout the site to find content that I am interested in.") The navigation bar links are also underlined depending on which page the user is viewing.
+
+      * The user is greeted with a striking hero image which has added animations to make it stand out a bit more, this helps to reinforce the site's demographic as being tourists who are interested in the outdoors.
+
+      * The home page's content is broken into two sections each with a header and description of what to expect from the Ribeira Sacra's hiking trails and cross country mountain biking routes.
+
+      * The home page's content is complemented with images of two hikers and a cross country biker aimed at reinforcing who the site is targeted at.
+
+      * The activities page has a simple layout with an introduction to using the guide and a desclaimer, the content consists of images and details of each trail/route. 
+
+    * I want to look for user feedback to see if the site is reliable and trustworthy. 
+
+      *  Below the home pages's main content are two users both with photos and Twitter accounts referencing the site's usefulness and how it helps them to plan their treks through the Ribeira Sacra.
+
+    * I want to be able to locate social media links to see their followings and to determine how trusted and known they are.
+
+      * The site's three pages contain social media icons located in the footer which when clicked will open in separate tabs allowing the user to view that particular social media page.
+
+* Returning Visitor Goals: 
+
+    * I want to find the best way of contacting the site operators with any questions I might have.
+    
+      * The contact-us page includes a form which users can fill out with their name and contact details in order to ask questions and make general inquiries or ask to receive more information pertaining to the trails and routes.
+
+    *  I want to find out about new routes that may have been added to the site.
+
+        * This particular goal would be more likely as a long term future as part of a business model to constatly update the site with new information relating to new hikes and routes not just within the Ribeira Sarca but to include other regions of Spain and even Europe as a whole?.
+
+    * I want to find links to other external organizations based in the Ribeira Sacra. 
+
+      * This could be done by linking an image of the organisation to the relevant url address. These would located in the footer of the each page along with the social media icons.
+
+* Frequent Visitor Goals:     
+
+    * I want to be able to sign up to a newsletter to stay informed of any major changes/updates made to the site.
+
+      *  At the moment the site only has the contact form which a user can fill out their details to receive more information with regards to general queries. A database would be required to store users details to whic a new news letter could be sent out to various users who signed up to receive one.
+
+<h3>Further Testing</h3>
+
+* The website was tested using Chrome Dev Tools utilising the responsive features extensively to determine how the various pages responded to the media queries that were written for the various break points utilised by Chrome Dev Tools. 
+
+* The website was viewed on various different devices such as Desktop, Laptop, Google Nenus 7 tablet and my own Blackview BV6000 Android phone. 
+
+* Friends and family members were asked to review the site to highlight any bugs or user experience issues.
