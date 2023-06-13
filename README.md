@@ -99,6 +99,8 @@ Imagery is important. The large, background hero image is designed to be strikin
 
 The hero image came from a Google images search on the Ribeira Sacra [Click the link to view](https://aviturga.es/wp-content/uploads/2022/09/mirador-de-vilouxe.jpeg)
 
+The Ribeira Sacra logo image came from their official website [Click the link to view](https://turismo.ribeirasacra.org/mediaCache/img/ribeirasacra.png)
+
 The two center images used in the home page came from a related Google images search on hiking and cross county biking in Galicia:
 
 * [The two hikers](https://www.stuff.co.nz/travel/destinations/europe/105683889/galicia-spain-hiking-the-last-unspoilt-coast-of-europe)
@@ -185,7 +187,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes for the website.
 * [Bootstrap 5.3](https://getbootstrap.com/) was only used to create the navigation bar taking advantage of it's built in responsive classes. The boilerplate was modified slightly to include a few custom CSS styles such as letter spacing and a bottom-border to help remind users of what page they are viewing.
-* [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages, the maps and a warning icon at the top of the activities page and the social media icons used in the footer.
+* [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages, the GPS and warning icons at the top of the activities page and the social media icons used in the footer.
 * [Google Fonts](https://fonts.google.com/) was used to import the Oswald font for the logo and Lato for the body text.
 * Google Dev Tools was used to identify and resolve problems related to responsiveness and appearance.
 * [Github](https://github.com/) was used to store my project in a repository.
@@ -194,3 +196,26 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Gitpod](https://www.gitpod.io/) the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
 * CDNs [Cloudflare](https://www.cloudflare.com/en-gb/learning/what-is-cloudflare/) and [JsDelivr](https://www.jsdelivr.com/) were used for Font Awesome icons CSS minified and Bootstrap 5.3 minified.
 * Free [Online Image Editor](https://www.online-image-editor.com/) was used to crop and resize some of the images used in the project.
+
+<h2>Testing</h2>
+
+<h3>Validation</h3>
+
+The W3C Markup Validation Service was used on all three pages as well as the CSS Validator.
+
+* [Index HTML](assets/img/readme/validation/index-page-validation.png)
+* [Activities HTML](assets/img/readme/validation/activities-page-validation.png)
+* [Contact Us HTML](assets/img/readme/validation/contact-us-page-validation.png)
+* [Stylesheet CSS](assets/img/readme/validation/style-sheet-validation.png)
+
+<h2>Bugs and Errors</h2>
+
+The online validator did throw up a few of error warnings.
+
+* The index page had one warning with regards to the hero image section having no header tag but a div is used to house the hero image container. [Refer back to Index HTML](assets/img/readme/validation/index-page-validation.png)
+
+* The activities page had two errors with regards to unordered list elements nested inside two paragraph elements. An online search concluded that list items cannot be nested inside paragraph elements and this was corrected by separating the text into separate paragraphs with the list itmes separate inside their respective div elements. [Activities page errors](assets/img/readme/validation/activities-page-validation-errors.png)
+
+* The stylesheet validator found one error with regards to incorrect values used for a padding style. This was corrected by changing padding to margin. [Stylesheet error](assets/img/readme/validation/stylessheet-validation-error.png)
+
+
