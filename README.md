@@ -264,6 +264,37 @@ The online validator did throw up a few of error warnings.
 
 * The website was tested using Chrome Dev Tools utilising the responsive features extensively to determine how the various pages responded to the media queries that were written for the various break points utilised by Chrome Dev Tools. 
 
-* The website was viewed on various different devices such as Desktop, Laptop, Google Nenus 7 tablet and my own Blackview BV6000 Android phone. 
+* The website was viewed on various different devices such as Desktop, Laptop, Google Nexus 7 tablet and my Blackview BV6000 Android phone. 
 
 * Friends and family members were asked to review the site to highlight any bugs or user experience issues.
+
+<h3>Manual Testing</h3>
+
+All throughout the development process as previously mentioned each page was consistently checked to make sure that they responded correctly to the various default breakpoints built into Chrome Developer Tools.
+
+   * Each navigation bar link on each page was clicked to verify that it not only worked but took you to the correct page.
+
+   * The social media icons were clicked in each page to verify that they opened in a new tab window and went to the correct social media home page. 
+
+   * The Hiking & Biking logo was clicked in each page to make sure that it was correctlt linked to the home page.
+
+<h3>Lighthouse</h3> 
+
+Results: 
+
+* [Index Page Lighthouse](assets/img/readme/lighthouse/index-lighthouse.png)
+* [Activities Page Lighthouse](assets/img/readme/lighthouse/activities-lighthouse.png)
+* [Contact Us Page Lighthouse](assets/img/readme/lighthouse/contact-us-lighthouse.png)
+
+The diagnostics report for the activities page's performance highlighted these issues:
+   * Serve static assets with an efficient cache policy (21 resources found)
+   * Image elements do not have explicit width and height
+   * Avoid enormous network payloads Total size was 7,747 KiB
+   * Minimize main-thread work 2.4s
+   * Avoid chaining critical requests (7 chains found)
+   * Keep request counts low and transfer sizes small (31 requests • 7,747 KiB)
+   * Largest Contentful Paint element (1 element found)
+   * Avoid large layout shifts (5 elements found)
+   * Avoid long main-thread tasks (5 long tasks found)
+
+The diagnostic report for the contact us page's accessibility score was lower originally (88) which was attributed to the lack of aria-labels written into the form's inputs. [The report suggested this website](https://dequeuniversity.com/rules/axe/4.6/label)    
