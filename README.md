@@ -297,4 +297,39 @@ The diagnostics report for the activities page's performance highlighted these i
    * Avoid large layout shifts (5 elements found)
    * Avoid long main-thread tasks (5 long tasks found)
 
-The diagnostic report for the contact us page's accessibility score was lower originally (88) which was attributed to the lack of aria-labels written into the form's inputs. [The report suggested this website](https://dequeuniversity.com/rules/axe/4.6/label)    
+The diagnostic report for the contact us page's accessibility score was lower originally (88) which was attributed to the lack of aria-labels written into the form's inputs. [The report suggested this website](https://dequeuniversity.com/rules/axe/4.6/label) 
+
+<h2>Deployment & Local Development</h2>
+
+<h3>Deploying to Github Pages</h3>
+
+* Choose the repository you want to deploy from the main overview.
+* Go to settings by clicking on the icon on the menu.
+* In the left navigation, select the "Pages" option.
+* Under "Source", choose "Master" branch and click "Save".
+* After it's done, you will see a message saying "Your site is ready to be published at (insert url here)".
+
+<h3>Local Development</h3>
+
+<h4>How to Fork</h4>
+
+Forking is the process of creating a copy of the original repository. The process allows a developer to make any changes without affecting the main repo.
+
+To do this: 
+
+* Search for the Github repo you want to copy.
+* Select the "Fork" button located in the top right corner which is located under your profile icon.
+* Once completed, you will now have your own version of that repo to make changes to.
+
+<h4>How to Clone</h4>
+
+To copy a Github repository:
+
+* First navigate to the repository you wish to copy.
+* Click on the "Code" button (which has a download icon) and copy the link provided. 
+* In the Gitpod terminal, navigate to the directory where you want to place the clone. Then, type "git clone" and paste the link you copied earlier and press enter.
+* Another way to push a cloned repository to a new Gitpod workspace can be done through the use of a Gitpod extension installed in your prefered browser, in my case Google Chrome. This browser extension will add a green Gitpod button to your Github account and will be visible on every repository created, cloned or searched for.
+
+<h3>Credits</h3>
+
+<h3>Acknowledgement</h3>
