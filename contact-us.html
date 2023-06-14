@@ -61,33 +61,33 @@
           <h2>Contact Us to Receive More Information</h2>
 
           <label for="fname">First Name</label>
-          <input class="text-input" id="fname" type="text" name="first_name" required>
+          <input class="text-input" id="fname" type="text" name="first_name" aria-label="input your first name (this is required)" required>
 
           <label for="lname">Last Name</label>
-          <input class="text-input" id="lname" type="text" name="last_name" required>
+          <input class="text-input" id="lname" type="text" name="last_name" aria-label="input your last name (this is required)" required>
 
           <label for="email">Email Address</label>
-          <input class="text-input" id="email" type="email" name="email_address" required>
+          <input class="text-input" id="email" type="email" name="email_address" aria-label="input your email address (this is required)" required>
 
           <h3>Rate Your User Experience?</h3>
 
           <label for="poor">Poor</label>
-          <input id="poor" type="radio" name="user_experience" value="poor" required>
+          <input id="poor" type="radio" name="user_experience" value="poor" aria-label="radio button for a poor user experience (select one button)" required>
 
           <label for="Ok">OK</label>
-          <input id="Ok" type="radio" name="user_experience" value="Ok">
+          <input id="Ok" type="radio" name="user_experience" value="Ok" aria-label="radio button for an OK user experience (select one button)">
 
           <label for="good">Good</label>
-          <input id="good" type="radio" name="user_experience" value="good">
+          <input id="good" type="radio" name="user_experience" value="good" aria-label="radio button for a good user experience (select one button)">
 
           <label for="excellent">Excellent</label>
-          <input id="excellent" type="radio" name="user_experience" value="excellent">
+          <input id="excellent" type="radio" name="user_experience" value="excellent" aria-label="radio button for an excellent user experience (select one button)">
 
           <div class="textarea">
-            <textarea name="comments" id="comments" rows="5" cols="29">Comment on your User Experience? (Optional)</textarea>
+            <textarea name="comments" id="comments" rows="5" cols="29" aria-label="text comments section (optional)">Comment on your User Experience? (Optional)</textarea>
           </div>
         
-          <input class="contact-us-button" type="submit" value="Submit">
+          <input class="contact-us-button" type="submit" value="Submit" aria-label="submit form button">
 
         </form>
 
