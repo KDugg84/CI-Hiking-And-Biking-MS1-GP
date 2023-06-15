@@ -269,7 +269,11 @@ The online validator did throw up a few error warnings.
 
 * Another issue occured with the centre image used at the top of the activities page which originally was applied with CSS as a background property but failed to load. The solution was to apply the image's url within an img element.
 
-* A potential issue is the fact that the home page's main content under media queries isn't quite centered to the page when viewed on smaller device screens such as tablets and mobiles. The same is said for the infomation content at the top of the activites which was the result of replicating the media queries used on the home page along with repeating the layout to try to maintain a similar design theme throughout the site's three pages.  
+* A potential issue is the fact that the home page's main content under media queries isn't quite centered to the page when viewed on smaller device screens such as tablets and mobiles. The same is said for the infomation content at the top of the activites which was the result of replicating the media queries used on the home page along with repeating the layout to try to maintain a similar design theme throughout the site's three pages.
+
+* The main content images used in the centre of the home page and information introduction section of the activities page also didn't originally sit center to the pages when viewed on smaller screens.
+
+    * The solution required the use of additional media queries set at max-width 768, 425 and 320px incorporating the use of additional margins to help centre the content better the viewport screen.  
 
 <h3>Testing User Stories</h3>
 
