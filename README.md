@@ -12,6 +12,43 @@ The site has the protenial to expand it's information base in the future to incl
 
 [Link to the live site](https://kdugg84.github.io/CI-Hiking-And-Biking-MS1-GP/)
 
+<h2>Table of Contents</h2>
+
+* [User Experience](#UserExperience)
+    * [User Stories](#UserStories)
+    * [Strategic Trade Offs](#StrategicTradeOffs)
+
+* [Design](#Design)    
+    * [Colour Scheme](#ColourScheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+    * [Wireframes](#Wireframes)
+    * [Features](#Features)
+    * [Future Implementations](#FutureImplementations)
+    * [Accessibility](#Accessibility)
+
+* [Technologies Used](#TechnologiesUsed)
+    * [Languages Used](#LanguagesUsed)
+    * [Software, Frameworks & Libraries Used](#Software,Frameworks&LibrariesUsed)
+
+* [Testing](#Testing)
+    * [Validation](#Validation)
+    * [Bugs and Errors](#BugsandErrors)  
+    * [Known Issues and Fixes](#KnownIssuesandFixes)
+    * [Testing User Stories](TestingUserStories)
+    * [Further Testing](#FurtherTesting)
+    * [Manual Testing](#ManualTesting)
+    * [Lighthouse](#Lighthouse)
+
+* [Deployment & Local Development](#Deployment&LocalDevelopment)   
+    * [Deploying to Github Pages](#DeployingtoGithubPages) 
+    * [Local Development](#LocalDevelopment)
+       * [How to Fork](#HowtoFork)
+       * [How to Clone](#HowtoClone)
+
+* [Credits](#Credits)
+    * [Acknowledgements](#Acknowledgements)       
+
 <h2>User Experience (UX)</h2> 
 
 The best (intuitive) UX creates single-use learning.
@@ -48,7 +85,7 @@ The best (intuitive) UX creates single-use learning.
 | Create a structured informative layout| 5               | 5                     |
 | Offer informative location details    | 4               | 5                     |
 | Social media interaction              | 3               | 3                     |
-| Email news-letter                     | 2               | 1                     |
+| Email newsletter                     | 2               | 1                     |
 | Total                                 |19                | Avg 19        
 
 Viability/Feasibility formula; take the average viability x the number of items.
@@ -56,7 +93,6 @@ Viability/Feasibility formula; take the average viability x the number of items.
 Reasons for choosing the above opportunities.
 
 * Online presence
-
 
     * This is of course manadatory and more than feasible given what I have learnt on the course up-to-now.
 
@@ -77,7 +113,7 @@ Reasons for choosing the above opportunities.
     * Again this is well within my skill set and can be as simple as the use of icons nested within the site's footer.
 
 
-* Email news letter 
+* Email newsletter 
 
     * Whilst I have the skills to create a signup/contact form, a database of customer details would be required to handle this particular feature and that is something at the moment is not within my skills set given the allotted time frame. 
 
@@ -85,15 +121,15 @@ Reasons for choosing the above opportunities.
 
 <h3>Colour Scheme</h3>
 
-Because the site is focused on outdoor activities it felt appropriate to use colours that would help create and enforce the sense of being in the outdoors and with nature.
+Because the site is focused on outdoor activities it felt appropriate to use colours that would help create and enforce the sense of being in the outdoors.
 
 The two main colours used throughout the site are forestgreen (#228b22) used for the logo and borders for the imagery and lightgreen (#90ee90) for the footer.
 
 <h3>Typography</h3>
 
-There are two fonts that were imported into the project used throughout the site, Oswald (weight: 600) was used to create the logo and Lato (weight: 300) was used as the body text. The backup font used in the font-family is Sans-Serif incase the imported fonts fail to load. 
+There are two fonts that were imported into the project used throughout the site, Oswald (font-weight: 600) was used to create the logo and Lato (font-weight: 300) was used as the body text. The backup font used in the font-family is Sans-Serif incase the imported fonts fail to load. 
 
-Because the site would have a white background for the majority of each page it felt necessary to avoid using black for the text instead using a shade of gray (#77777) to create a subtle contrast between the text and the background.
+Because the site would have a white background for the majority of each page it felt necessary to avoid using black for the text instead using a shade of gray (#77777) to create a subtle contrast between the text and the white background.
 
 <h3>Imagery</h3>
 
@@ -134,7 +170,7 @@ Hiking & Biking consists of three pages (Home, Activities and Contact Us).
 
     * The logo acts as a link back to the home page regardless of which page the user is currently viewing.
 
-    * A responsive navigation bar across the top of all three pages that adapts to being viewed on different screen sizes, below 768px the navigation anchor/list elements change to a dropdown hamburger icon for a more mobile friendly experience, the same happens when viewed on tablets.
+    * A responsive navigation bar across the top of all three pages that adapts to being viewed on different screen sizes, below 991px the navigation anchor/list elements change to a dropdown hamburger icon for a more mobile friendly experience, the same happens when viewed on tablets.
 
     * Home - navigates to the home page.
 
@@ -142,7 +178,7 @@ Hiking & Biking consists of three pages (Home, Activities and Contact Us).
 
     * Contact Us - navigates to the contact form page.
 
-    * The footer houses the site's social media links represented by Font Awesome icons, when clicked will open (in a new tab) that social media's home page.
+    * The footer houses the site's social media links represented by Font Awesome icons, when clicked will open (in a separate tab) that social media's home page.
 
 * Home Page: 
 
@@ -150,11 +186,11 @@ Hiking & Biking consists of three pages (Home, Activities and Contact Us).
 
     * A brief overview of the Ribeira Sacra broken into two sections covering both hiking and mountain biking in the region.  
 
-    * A comments section below the overview with quotes from two users expressing their thoughts on the site via Twitter.  
+    * A comments section below the overview with quotes from two users expressing their thoughts on the site linked via their Twitter accounts.  
 
 * Activities Page:
 
-    * An introduction on how to use the hiking guide along with a disclaimer reminding users of the risks involved in both sports. 
+    * An introduction on how to use the hiking guide along with a disclaimer reminding users of the risks involved in both activities. 
 
     * Each route detailed is accompanied by directions on how to get to each route from a start point, statistics on each route along with an image taken from that particular area. 
 
@@ -164,11 +200,11 @@ Hiking & Biking consists of three pages (Home, Activities and Contact Us).
 
 * Contact Us Page:
 
-    * Contains a contact form which can be used to recieve more information, the form includes radio buttons where users can rate their overall user experience along with a comments section where they can elaborate more. As part of form validation the name and email fields have been set to required, this prompts the user to enter details if they have been missed. The form can be submitted using the submit button which POSTS to https://formdump.codeinstitute.net and returns the values entered.
+    * Contains a contact form which can be used to receive more information, the form includes radio buttons where users can rate their overall user experience along with a comments section where they can elaborate more. As part of form validation the name and email fields have been set to required, this prompts the user to enter details if they have been missed. The form can be submitted using the submit button which POSTS to https://formdump.codeinstitute.net and returns the values entered.
 
 <h3>Future Implementations</h3>
 
-* A database for storing user's information as the basis for a news letter or info pack which can be sent out to subscribers informing them of changes or updates being made to the site. 
+* A database for storing user's information as the basis for a newsletter or info pack which can be sent out to subscribers informing them of changes or updates being made to the site. 
 
 <h3>Accessibility</h3>
 
@@ -177,6 +213,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * Google Dev Tools to check contrast of items.
 * Alt tags to describe the images on site.
 * Semantic HTML
+* Aria Labels to hightlight areas for users who require the use of screen readers. 
 
 <h2>Technologies Used</h2>
 
@@ -190,7 +227,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes for the website.
 * [Bootstrap 5.3](https://getbootstrap.com/) was only used to create the navigation bar taking advantage of it's built in responsive classes. The boilerplate was modified slightly to include a few custom CSS styles such as letter spacing and a bottom-border to help remind users of what page they are viewing.
 * [Font Awesome](https://fontawesome.com/icons) was used extensively throughout the project, the mountain icon was used to develop to logo, the hiker and biker icons were used in both the home and activities pages, the GPS and warning icons at the top of the activities page and the social media icons used in the footer.
-* [Google Fonts](https://fonts.google.com/) was used to import the Oswald font for the logo and Lato for the body text.
+* [Google Fonts](https://fonts.google.com/) was used to import the Oswald font for the logo and the Lato font for the body text.
 * Google Dev Tools was used to identify and resolve problems related to responsiveness and appearance.
 * [Github](https://github.com/) was used to store my project in a repository.
 * [Git](https://git-scm.com/) was used for version control.
@@ -199,6 +236,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * CDNs [Cloudflare](https://www.cloudflare.com/en-gb/learning/what-is-cloudflare/) and [JsDelivr](https://www.jsdelivr.com/) were used for Font Awesome icons CSS minified and Bootstrap 5.3 minified.
 * Free [Online Image Editor](https://www.online-image-editor.com/) was used to crop and resize some of the images used in the project.
 * [Am I Responsive](https://ui.dev/amiresponsive) To create the responsive banner of devices.
+* [Harvard Referencing Generator](https://www.mybib.com/tools/harvard-referencing-generator)
 
 <h2>Testing</h2>
 
@@ -213,7 +251,7 @@ The W3C Markup Validation Service was used on all three pages as well as the CSS
 
 <h3>Bugs and Errors</h3>
 
-The online validator did throw up a few of error warnings.
+The online validator did throw up a few error warnings.
 
 * The index page had one warning with regards to the hero image section having no header tag but a div is used to house the hero image container. [Refer back to Index HTML](assets/img/readme/validation/index-page-validation.png)
 
@@ -225,11 +263,13 @@ The online validator did throw up a few of error warnings.
 
 * One of the main issues during the development process was that when the site was viewed on smaller mobile devices a white margin would appear on the right hand side caused by the images being larger than the 320px viewport size which would result in a scroll effect. 
 
-* This was primarily confined to the home page where the centre images were causing the white margin effect. Because Bootstrap was not implemented across the entire website, the layout relied on the rule of thirds with regards to responsive design. 
+     * This was primarily confined to the home page where the centre images were causing the white margin effect. Because Bootstrap was not implemented across the entire website, the layout relied on the rule of thirds with regards to responsive design. 
 
-* The solution to this issue was a simple case of resizing the images container to a max width of 320px.
+     * The solution to this issue was a simple case of resizing the images container to a max width of 320px.
 
 * Another issue occured with the centre image used at the top of the activities page which originally was applied with CSS as a background property but failed to load. The solution was to apply the image's url within an img element.
+
+* A potential issue is the fact that the home page's main content under media queries isn't quite centered to the page when viewed on smaller device screens such as tablets and mobiles. The same is said for the infomation content at the top of the activites which was the result of replicating the media queries used on the home page along with repeating the layout to try to maintain a similar design theme throughout the site's three pages.  
 
 <h3>Testing User Stories</h3>
 
@@ -345,6 +385,16 @@ To copy a Github repository:
 * In the Gitpod terminal, navigate to the directory where you want to place the clone. Then, type "git clone" and paste the link you copied earlier and press enter.
 * Another way to push a cloned repository to a new Gitpod workspace can be done through the use of a Gitpod extension installed in your prefered browser, in my case Google Chrome. This browser extension will add a green Gitpod button to your Github account and will be visible on every repository created, cloned or searched for.
 
-<h3>Credits</h3>
+<h2>Credits</h2>
 
-<h3>Acknowledgement</h3>
+Flexbox code:
+
+* McGrath, M. (2020). HTML, CSS & JavaScript. Special Edition ed. United Kingdom: In Easy Steps, p.292/293.
+
+<h3>Acknowledgements</h3>
+
+* Chris Quinn (Mentor) - for offering guidence and support for the project from it's inception, development and deployment.
+
+* Code Institute student cohort on Slack - always offering help and solutions. 
+
+* Callum Jones - for offering helpful advice and tips.
