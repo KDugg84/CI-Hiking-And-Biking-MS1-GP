@@ -8,6 +8,10 @@ The Ribeira Sacra offers stunning landscapes, panoramic mountain ranges and larg
 
 The site has the protenial to expand it's information base in the future to include other areas of Spain and Europe as a whole. As a business idea, the site can add to the Ribeira Sacra's growing tourist industry and reputation as an area of outstanding natural beauty and is currently shortlisted to be recognised as a UNESCO World Heritage Site.
 
+![Am I Responsive](assets/img/readme/amiresponsive.png)
+
+[Link to the live site](https://kdugg84.github.io/CI-Hiking-And-Biking-MS1-GP/)
+
 <h2>User Experience (UX)</h2> 
 
 The best (intuitive) UX creates single-use learning.
@@ -194,6 +198,7 @@ Whilst coding the site I have ensured that the site is accesible for all. This i
 * [Gitpod](https://www.gitpod.io/) the vast majority of my time was spent inside GitPod's VSCode Cloud IDE.
 * CDNs [Cloudflare](https://www.cloudflare.com/en-gb/learning/what-is-cloudflare/) and [JsDelivr](https://www.jsdelivr.com/) were used for Font Awesome icons CSS minified and Bootstrap 5.3 minified.
 * Free [Online Image Editor](https://www.online-image-editor.com/) was used to crop and resize some of the images used in the project.
+* [Am I Responsive](https://ui.dev/amiresponsive) To create the responsive banner of devices.
 
 <h2>Testing</h2>
 
@@ -215,6 +220,16 @@ The online validator did throw up a few of error warnings.
 * The activities page had two errors with regards to unordered list elements nested inside two paragraph elements. An online search concluded that list items cannot be nested inside paragraph elements and this was corrected by separating the text into separate paragraphs with the list items separate inside their respective div elements. [Activities page errors](assets/img/readme/validation/activities-page-validation-errors.png)
 
 * The stylesheet validator found one error with regards to incorrect values used for a padding style. This was corrected by changing padding to margin. [Stylesheet error](assets/img/readme/validation/stylessheet-validation-error.png)
+
+<h3>Known Issues and Fixes</h3>
+
+* One of the main issues during the development process was that when the site was viewed on smaller mobile devices a white margin would appear on the right hand side caused by the images being larger than the 320px viewport size which would result in a scroll effect. 
+
+* This was primarily confined to the home page where the centre images were causing the white margin effect. Because Bootstrap was not implemented across the entire website, the layout relied on the rule of thirds with regards to responsive design. 
+
+* The solution to this issue was a simple case of resizing the images container to a max width of 320px.
+
+* Another issue occured with the centre image used at the top of the activities page which originally was applied with CSS as a background property but failed to load. The solution was to apply the image's url within an img element.
 
 <h3>Testing User Stories</h3>
 
